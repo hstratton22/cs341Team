@@ -120,7 +120,7 @@ router.post("/stretch-2", (req, res, next) => {
     return req.on('end', () => {
         const parsedBody = Buffer.concat(body).toString();
         const message = parsedBody.split('=')[1];
-        console.log(message);
+        console.log("message = " + message);
         fs.writeFile('stretch2.txt', message, err => {
             res.writeHead(302, {'Location': '/'}); // Redirect
             return res.end();
