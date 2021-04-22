@@ -52,6 +52,12 @@
 .myForm input {
   border:2px solid black;
 }
-ul {
-  list-style-type: none;
+.responses {
+  margin-left: 30%;
+
+}
+.responses p{
+  color:white;
+  text-align: left;
+
 }
