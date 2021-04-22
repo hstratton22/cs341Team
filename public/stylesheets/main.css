@@ -45,3 +45,13 @@
   color:black;
   border-radius:20px;
 }
+.myForm {
+  color:black;
+  
+}
+.myForm input {
+  border:2px solid black;
+}
+ul {
+  list-style-type: none;
+}

@@ -1,6 +1,9 @@
 const express = require('express');
 const fs = require('fs'); // File system for TA01
 const router = express.Router();
+//const parsedBody = require('body-parser');
+//?router.use(bodyParser.urlencoded({ extended: false}));
+
 // Remember Team Activity 01? 
 // This is the same solution, but implemented in our app using 
 // proper routing for the view engine
